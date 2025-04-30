@@ -1,3 +1,2 @@
-DSSE[coverage]
 numpy==1.26.4
 stable-baselines3
