@@ -1,2 +1,7 @@
-numpy==1.26.4
+numpy
 stable-baselines3
+gymnasium
+matplotlib
+pandas
+seaborn
+ipykernel
