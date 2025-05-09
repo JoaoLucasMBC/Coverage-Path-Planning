@@ -114,10 +114,8 @@ class CoverageEnv(gym.Env):
         # Check if on a target
         if self.agent_pos not in self.visited:
             if self.agent_pos in self.targets:
-                reward = 2.0   # new target
+                reward = 2   # new target
             self.visited.add(self.agent_pos)
-        else:
-            reward = -1
 
         # Step count
         self.steps += 1
