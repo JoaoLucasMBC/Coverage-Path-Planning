@@ -18,7 +18,7 @@ projeto-intermediario-p-j-cpp-main/
 ├── ppo_mlp_test.ipynb       # Notebook: Training and evaluation of PPO agent
 ├── ppo_mlp_l2_test.ipynb    # Notebook: PPO agent with L2 regularization
 ├── model_per_level.ipynb    # Notebook: Curriculum-learning across levels
-├── conclusion.ipynb         # Summary of findings and analysis
+├── conclusion.ipynb         # Report on results and analysis
 └── README.md                # Project overview and usage instructions
 ```
 
@@ -86,3 +86,11 @@ Import `CoverageEnv` in your own scripts or notebooks:
 ```python
 from coverage_env import CoverageEnv
 ```
+
+### 4. Analysis of our Work
+
+The analysis of our work is presented in the `conclusion.ipynb` notebook. It includes:
+
+* A summary of the results obtained from the experiments.
+* A discussion of the implications of the findings.
+* Suggestions for future work and improvements.
